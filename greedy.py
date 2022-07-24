@@ -1,3 +1,5 @@
+# 欲張り法で迷路を探索した場合の最短経路とそのコスト
+
 class Node():
 
     def __init__(self, parent=None, position=None):
