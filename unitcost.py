@@ -1,3 +1,5 @@
+# 均一コスト法で探索した場合の最短経路とそのコスト
+
 class Node():
 
     def __init__(self, parent=None, position=None):
