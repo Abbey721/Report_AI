@@ -83,7 +83,7 @@ def astar(maze, start, end):
             if len([closed_child for closed_child in closed_list if closed_child == child]) > 0:
                 continue
 
-            # G は親ノード + 1
+            # G は今回は親ノード + 3
             child.g = current_node.g + 3
 
             # H は （現在位置 - エンド位置)の2乗
